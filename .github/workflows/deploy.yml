@@ -27,7 +27,7 @@ jobs:
       - name: Copy build to public/
         run: |
           mkdir -p public
-          cp -r dist/* public/
+          cp -r build/* public/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
